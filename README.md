@@ -1,2 +1,3 @@
 # Weather-Data-Engineering
-<img width="592" alt="project e2e schematic" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/afb4b5df-6cc4-4034-9b49-e5bba9d2fad8">
+<img width="887" alt="project e2e schematic" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/072e85f1-5aa2-4b04-a4c6-b37e2417586b">
+
