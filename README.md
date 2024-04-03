@@ -8,6 +8,9 @@
 
 
 ### Power BI Report
-<img width="585" alt="PBI report" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/1a053ecc-4a12-41f7-93c4-fe5fb5f61c76">
+*Snapshot as of April 3, 2024*
+
+<img width="604" alt="PBI report" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/9a660940-24e8-4c42-b09a-c92f5197e719">
+
 
 
