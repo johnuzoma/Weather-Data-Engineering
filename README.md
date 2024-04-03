@@ -4,7 +4,8 @@
 
 
 ### Data Pipeline in Azure Data Factory
-<img width="725" alt="data pipeline" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/04c2b4da-cccc-41d3-b76d-cbba01432fa0">
+<img width="847" alt="data pipeline" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/e639556e-9522-4f3c-bb3f-ab165a62ef0c">
+
 
 ### Power BI Report
 <img width="585" alt="PBI report" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/1a053ecc-4a12-41f7-93c4-fe5fb5f61c76">
