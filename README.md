@@ -1,25 +1,28 @@
 # Weather-Data-Engineering
-### Project end-to-end architecture
-<img width="887" alt="project e2e schematic" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/072e85f1-5aa2-4b04-a4c6-b37e2417586b">
+### Solution Architecture
+<img width="711" alt="image" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/9bb61b48-e522-4414-8ee4-8ed3de26ef6f">
 
+### Data Pipelines in Azure Data Factory
+Pipeline for Dublin Weather Forecast (Text)
 
-### Data Pipeline in Azure Data Factory
-<img width="847" alt="data pipeline" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/e639556e-9522-4f3c-bb3f-ab165a62ef0c">
+<img width="406" alt="image" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/3013f4cc-da4c-47c4-839d-3b6ff8db11df">
 
-1. The pipeline begins with the "Set variable" activity which declares a variable and sets its value equal to a folder structure involving the current year, month and day, using the pipeline expession builder.
-2. Then we have 2 "Copy" activities, each of which are used for pulling current and forecast weather data fom the API, by passing the longitude, latitude and API key as parameters in the pipeline expession builder.
-  
-    - In the top "Copy" activity, the current weather data is loaded into the folder declared by initial variable as a JSON file.
-    - In the bottom "Copy" activity, the forecast weather data is loaded directly into the root Files folder as another JSON file.
-   
-4. Then we have the top notebook which cleans and transforms the current weather data using PySpark. The data is read from a defined base parameter, PARAM_file_path, which takes the value of the dynamic path for the current weather JSON file.
-5. The second notebook also cleans and transforms the forecast weather data using PySpark. This notebook has no base parameters, since the data is read directly from the JSON file in the root Files folder.
-6. The dataflow is used for appending (analogous to UNION in SQL) the current and forecast weather data, and finally loading the result into a lakehouse table.
+Pipeline for Dublin Weather Forecast (Numeric)
+
+<img width="550" alt="image" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/cefa2286-b6d8-4380-854f-a9b2353d0ad1">
+
+Pipeline for Dublin Weather Warnings
+
+<img width="406" alt="image" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/3fc9abe0-0d25-4a3b-830c-bab59c7d9e10">
  
 ### Power BI Report
-*Snapshot as of April 3, 2024*
+*Snapshot as of May 28, 2024 11:40 am*
 
-<img width="604" alt="PBI report" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/9a660940-24e8-4c42-b09a-c92f5197e719">
+<img width="890" alt="image" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/1e63b5b6-3c90-4d87-906a-e71ea21f01a0">
+
+
+
+
 
 
 
