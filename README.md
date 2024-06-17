@@ -20,7 +20,7 @@ Using pipeline activities and PySpark notebooks in MS Fabric, I pulled Dublin's 
 
 <img width="406" alt="image" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/3fc9abe0-0d25-4a3b-830c-bab59c7d9e10">
  
-### Power BI Dashboard
+### Power BI Report
 ###### Snapshot as of May 28, 2024 11:40 am
 
 <img width="890" alt="image" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/1e63b5b6-3c90-4d87-906a-e71ea21f01a0">
