@@ -1,7 +1,7 @@
 ** Please note: I am no longer using OpenWeatherMap API for this project. I am using the Met Eireann API. **
 
 ### Executive Summary
-Using pipeline activities and PySpark notebooks in MS Fabric, I pulled Dublin's weather data from the Met Eireann API and created a dashboard to track weather warnings and forecasts.
+Using pipeline activities and PySpark notebooks in MS Fabric, I pulled Dublin's weather data from the Met Eireann API, cleased/transformed it and created a dashboard to track weather warnings and forecasts.
 
 ### Solution Architecture
 <img width="720" alt="image" src="https://github.com/johnuzoma/Weather-Data-Engineering/assets/18267074/210c7418-8db4-4b31-819b-ad512b3fbd3d">
