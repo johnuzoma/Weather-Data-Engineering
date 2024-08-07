@@ -4,7 +4,7 @@
 Using pipeline activities and PySpark notebooks in MS Fabric, I pulled Dublin's weather data from the Met Eireann API, cleased/transformed it and created a dashboard to track weather warnings and forecasts.
 
 ### Solution Architecture
-<img width="720" alt="image" src="https://github.com/user-attachments/assets/4f87e99d-ae71-4704-8fac-ab86e73e34ac">
+<img width="719" alt="image" src="https://github.com/user-attachments/assets/1aeb6404-1470-4729-be80-bdccecf5c7e7">
 
 ### Data Factory Pipeline
 <img width="557" alt="image" src="https://github.com/user-attachments/assets/cdf2509c-840e-48b9-97c1-62a14163ffdd">
