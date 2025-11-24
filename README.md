@@ -1,5 +1,5 @@
 ### Executive Summary
-Using pipeline activities and PySpark notebooks in MS Fabric, I pulled Dublin's weather data from the Met Eireann API, cleased/transformed it and created a dashboard to track weather warnings and forecasts.
+Using copy activities and PySpark notebooks in MS Fabric, I pulled Dublin's weather data from the Met Eireann API, cleansed/transformed it and created a dashboard to track weather warnings and forecasts.
 
 ### Solution Architecture
 <img width="719" alt="image" src="https://github.com/user-attachments/assets/1aeb6404-1470-4729-be80-bdccecf5c7e7">
